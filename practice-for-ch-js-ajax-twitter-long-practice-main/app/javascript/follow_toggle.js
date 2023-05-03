@@ -7,7 +7,8 @@ export default class FollowToggle {
   }
 
   async handleClick(event) {
-   
+    event.preventDefault();
+    console.log(this.followState);
   }
 
   async follow() {
